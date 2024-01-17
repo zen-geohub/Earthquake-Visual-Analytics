@@ -1,0 +1,19 @@
+{
+  "name": "new-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./public/Apps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/css/index.css -o ./public/Apps.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwind-scrollbar": "^3.0.5",
+    "tailwindcss": "^3.3.5"
+  }
+}
